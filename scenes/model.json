@@ -1,0 +1,52 @@
+{
+    "Eye": [200, 200, 1000],
+    "Lights":
+    {
+        "position": [-200, 600, 1500],
+        "color": [0.8, 0.8, 0.8]
+    },
+    "Objects": [
+        {
+            "type": "sphere",
+            "comment": "Mirror sphere",
+            "position": [200, 200, 900],
+            "radius": 8,
+            "material":
+            {
+                "color": [1.0, 1.0, 1.0],
+                "ka": 0.0,
+                "kd": 0.0,
+                "ks": 1.0,
+                "n": 64
+            }
+        },
+        {
+            "type": "sphere",
+            "comment": "Green sphere",
+            "position": [200, 220, 1100],
+            "radius": 80,
+            "material":
+            {
+                "color": [0.0, 1.0, 0.0],
+                "ka": 0.2,
+                "kd": 0.3,
+                "ks": 0.0,
+                "n": 8
+            }
+        },
+        {
+            "type": "sphere",
+            "comment": "Red sphere",
+            "position": [220, 170, 900],
+            "radius": 20,
+            "material":
+            {
+                "color": [1.0, 0.0, 0.0],
+                "ka": 0.2,
+                "kd": 0.7,
+                "ks": 0.0,
+                "n": 32
+            }
+        }
+    ]
+}
