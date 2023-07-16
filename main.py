@@ -109,7 +109,7 @@ def trace_ray(ray, scene, light, depth=0):
 scene = load_scene('scenes/trial.json')
 
 # Render the scene
-width, height = 800, 600
+width, height = 800, 800
 camera = np.array([0, 0, 0])
 pixels = np.zeros([height, width, 3])
 light = Light(np.array([5, 5, 5]), 2)
