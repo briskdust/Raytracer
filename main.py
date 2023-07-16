@@ -1,3 +1,4 @@
+import sys
 import matplotlib.pyplot as plt
 
 from objects.ray import Ray
@@ -6,8 +7,10 @@ from objects.light import Light
 from functions.phong_shading import *
 
 
+json_file = sys.argv[1]
+
 # Load the scenes from a JSON file
-scene = load_scene('scenes/trial.json')
+scene = load_scene(f'scenes/{json_file}')
 
 # Render the scene
 width, height = 800, 800
