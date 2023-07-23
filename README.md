@@ -13,7 +13,7 @@
       <a href="#scope">Scope</a>
     </li>
     <li>
-        <a href="#getting-started">Geting Started</a>
+        <a href="#getting-started">Getting Started</a>
     </li>
     <li>
         <a href="#future-improvements">Future Improvements</a>
