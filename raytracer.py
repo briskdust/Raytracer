@@ -11,6 +11,7 @@ json_file = sys.argv[1]
 
 # Load the scenes from a JSON file
 scene = load_scene(f'scenes/{json_file}')
+# scene = load_scene('scenes/trial.json')
 
 # Render the scene
 width, height = 800, 800

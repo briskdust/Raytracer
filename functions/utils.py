@@ -42,3 +42,10 @@ def load_scene(filename):
         for s in data['spheres']
     ]
     return Scene(spheres)
+
+
+def new_load_scene(filename):
+    with open(filename, 'r') as f:
+        data = json.load(f)
+
+    return data
