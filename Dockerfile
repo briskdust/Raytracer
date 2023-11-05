@@ -8,4 +8,4 @@ RUN pip install --user -r requirements.txt
 
 COPY . .
 
-CMD ["python", "main.py"]
+CMD ["python", "raytracer.py"]
