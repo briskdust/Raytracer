@@ -7,9 +7,9 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('Build Image') {
       steps {
-        sh 'docker build .'
+        sh 'docker build . -t briskdust/raytracer:latest'
       }
     }
 
